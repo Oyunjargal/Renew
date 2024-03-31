@@ -1,0 +1,23 @@
+
+.Betala-button {
+  background-color: rgb(27, 24, 211);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 125px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0,15s;
+  box-shadow: 0,15s;  
+}
+
+.Cancel-button{
+  background-color: rgb(44, 116, 38);
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 125px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+body {background-color: rgb(121, 208, 234);}
