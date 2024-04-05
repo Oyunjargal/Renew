@@ -17,6 +17,17 @@
         display: inline-block; 
         vertical-align: top;
       }
+
+       .search-bar {
+       background-color: white;
+       font-size: 15px;
+       margin-left: 1029px;
+       margin-bottom: 20px;
+       display: inline-block;
+       object-fit: contain;
+       object-position: top;
+      }
+      
     body {background-color: rgb(121, 208, 234); };
     </style>
  
@@ -26,6 +37,12 @@
 <div class="Logo preview">
   <img class= "Logo-picture" src="http://www.renewtaken.com/logo.jpeg"> 
      </div>
+
+        <input class="search-bar" type="text" width="100px"
+        placeholder="Search">
+        <button class="search-button">
+        <img class="search-icon" src="icons/search.svg" width="20px">
+        </button>
 
   
 <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
